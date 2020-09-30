@@ -25,11 +25,11 @@ const serv = require('./minestat');
 const client = new Discord.Client();
 
 // Number of minutes to refresh server count after (recommended >= 1 min; default = 4)
-const REFRESH_INTERVAL = 4 * 60 * 1000; // 4 minutes.
+const REFRESH_INTERVAL = 1 * 60 * 1000; // 4 minutes.
 
 // IP and port of Minecraft servers
 const servIP = {
-    hypixel: 'mc.hypixel.net:25565',
+    skynode: '147.135.71.64:26733',
 };
 
 let intervalId;
